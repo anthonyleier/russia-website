@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#barra_fixa{
+    width: 100%;
+    float:left;
+    position: fixed;
+    z-index: 999;
+}
+#barra_topo{
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #000;
+}
+#barra_topo img{
+width: 3%;  
+margin-left: 95.5%
+}
+#menu_topo{
+    float: left;
+    width: 100%;
+    background-color: #1E1F20;
+}
+#menu_topo ul{
+    list-style-type: none;
+}
+#ir_topo{
+    margin-left: 35%;
+    margin-top: 0.1%
+}
+#texto{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 0.7%;
+    width: 13%;
+    float: left;
+    font-family: Arial, sans-serif;
+    background-color: #1e1f20;
+    border-radius: 2px;
+    font-size: 130%;
+    border-style:none;
+    border-bottom: solid 2px rgb(124,124,124);
+}
+#botao_imagem{
+    width: 85%;
+}
+#botao{
+    position: absolute;
+    margin-left: 31.2%;
+    margin-top: 0.6%;
+    float: left;
+    background-color: #1e1f20;
+    width: 30px;
+    height: 29px;
+    border: 0;
+    cursor:pointer;
+}
+.links{
+    float: left;
+    display:inline-block;
+    text-decoration: none;
+    margin: 1% 0% 0% 7.5%;
+    padding-bottom: 0.15%;
+    
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    color: #809fa5;
+}
+#ativo{
+    color: #FFF;
+    border-bottom: solid 5px #0959a0;
+}
+.links:hover{
+    color:#FFF;
+}
+#color{
+	background-color: #dddddd;
+}	
+#intro{
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+	
+
+}
+#escrita h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	margin-left: 5%;
+    margin-top:5%;
+	text-align: center;
+}
+#escrita h2{
+	font-family: 'Roboto', sans-serif;
+	margin-top:1.5%;
+	margin-left:2.5%;
+	
+}
+#escrita p{
+	font-size: 16px;
+    line-height: 22px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+#escrita h3{
+    line-height: 22px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	margin-top:1%;
+	margin-left:2.5%;
+}		
+table{
+	margin-top:1%;
+	margin-right:2.5%;
+	margin-left: 2%;
+}	
+
+	

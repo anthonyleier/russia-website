@@ -1,0 +1,440 @@
+
+/*Atributos Gerais*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Atributos primeira barra*/
+#barra_fixa{
+    width: 100%;
+    float:left;
+    position: fixed;
+    z-index: 999;
+}
+#barra_topo{
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #000;
+}
+#barra_topo img{
+width: 3%;  
+margin-left: 95.5%
+}
+/*Atributos do menu com os links*/
+#menu_topo{
+    float: left;
+    width: 100%;
+    background-color: #1E1F20;
+}
+#menu_topo ul{
+    list-style-type: none;
+}
+/*Atributos imagem para voltar ao topo*/
+#ir_topo{
+    margin-left: 35%;
+    margin-top: 0.1%
+}
+#texto{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 0.7%;
+    width: 13%;
+    float: left;
+    font-family: Arial, sans-serif;
+    background-color: #1e1f20;
+    border-radius: 2px;
+    font-size: 130%;
+    border-style:none;
+    border-bottom: solid 2px rgb(124,124,124);
+}
+#botao_imagem{
+    width: 85%;
+}
+#botao{
+    position: absolute;
+    margin-left: 31.2%;
+    margin-top: 0.6%;
+    float: left;
+    background-color: #1e1f20;
+    width: 30px;
+    height: 29px;
+    border: 0;
+    cursor:pointer;
+}
+/*Atributos para todos os links do menu*/
+.links{
+    float: left;
+    display:inline-block;
+    text-decoration: none;
+    margin: 1% 0% 0% 7.5%;
+    padding-bottom: 0.15%;
+    
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    color: #809fa5;
+}
+/*O link da pagina ativa fica com atributos diferentes*/
+#ativo{
+    color: #FFF;
+    border-bottom: solid 5px #0959a0;
+}
+/*Muda a cor quando passa o mouse em cima*/
+.links:hover{
+    color:#FFF;
+}
+/*Atributos do banner após o menu*/
+#banner_topo img{
+    width: 100%;
+	height: 250px;
+}
+/*Atributos da introdução ao console*/
+#intro{
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#intro img,#intro_escritas{
+    float: left;
+    display: inline-block;
+}
+#intro img{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#intro_escritas{
+    font-family: arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top:1.5%;
+}
+#intro_escritas h1{
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 33px%;
+    color: #363636;
+}
+#intro_escritas p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+}
+#bakunin{
+    float: left;
+    width: 100%;
+    margin-top: 4%;
+    padding: 3.5% 0% 3.5% 0%;
+    background-color: #01439a;
+}
+#link_bakunin{
+    display: inline-block;
+    margin-left: 38%;
+}
+#link_bakunin a{
+    text-decoration: none;
+    color: #FFF;
+}
+#link_bakunin h1{
+    font-weight: normal;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 38px;
+}
+#link_bakunin p{
+    padding-left: 32%;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+#pontos{
+    float: left;
+    width: 100%;
+    background-color: rgba(31,32,33,0.1);
+}
+#pontos_turisticos{
+    float: left;
+    width: 100%;
+    margin-top: 1%;
+}
+#pontos_turisticos h1{
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    color: #1e1f20;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: normal;
+}
+.banners{
+    float: left;
+    width: 50%;
+	
+}
+.banners_hover{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.banners_hover img{
+    width: 100%
+}
+#praca:hover::after{
+    visibility: visible;
+}
+#praca::after {
+    background: url(../imagens/praca2.jpg) no-repeat;
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.4);
+    background-position: 55% 55%;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+}
+#peterholf:hover::after{
+    visibility: visible;
+}
+#peterholf::after {
+    background: url(../imagens/peter2.jpg) no-repeat;
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.4);
+    background-position: 55% 45%;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+}
+#kremlin:hover::after{
+    visibility: visible;
+}
+#kremlin::after {
+    background: url(../imagens/kremlin2.jpg) no-repeat;
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.4);
+    background-position: 35% 55%;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+#palacioInverno:hover::after{
+    visibility: visible;
+}
+#palacioInverno::after {
+    background: url(../imagens/palacio2.jpg) no-repeat;
+    background-size: 112%;
+    background-color: rgba(0,0,0,0.4);
+    background-position: 50% 55%;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+/*ESTILO PARA A PAGINA DA SELEÇÃO*/
+.campo{
+	background: url(../imagens/campo.jpg) no-repeat ;
+	background-size: cover; /*especifica o tamanho das imagens de fundo*/
+}
+#goleiro img{
+	position:absolute;
+	top:13%;
+	left:44.6%;
+	max-width:20%;
+	max-height:30%;
+}
+.zagueiro img{
+	max-width:20%;
+	max-height:30%;
+	position: absolute; 
+	top: 60%;
+}
+#lateralEsquerdo img{ 
+	top: 60%;
+	left: 15%;
+	
+}	
+#lateralDireito img{
+	top: 60%;
+	right: 15%;
+}
+#zagueiro1 img{
+	top: 60%;
+	right: 35%;
+}
+#zagueiro2 img{
+	top: 60%;
+	left: 35%;
+}
+.meio img{
+	max-width:20%;
+	max-height:30%;
+	position: absolute; 
+
+}
+#volante1 img{
+	top: 130%;
+	left: 25%;
+}
+#volante2 img{
+	top: 110%;
+	right: 45%;
+}
+#volante3 img{
+	top: 130%;
+	right: 25%;
+}
+.meioAtaque img{
+	max-width:20%;
+	max-height:30%;
+	position: absolute; 
+	top: 190%;
+}
+#meia1 img{
+	left: 15%;
+}
+#meia2 img{
+	right: 15%;
+}
+.Ataque img{
+	max-width:20%;
+	max-height:30%;
+	position: absolute; 
+	top: 230%;
+	left: 45%;
+}
+.escudo img{	
+	max-width:20%;
+	max-height:30%;
+	position: absolute; 
+	top: 285%;
+	right: 1%;
+}
+
+/*Rodapes*/
+
+#contato{
+    margin-top: 2%;
+    float: left;
+    width: 100%;
+}
+#contato h1,h2{
+    text-align: center;
+}
+#contato h2{
+    font-family: georgia, serif;
+    font-style: italic;
+    color: #01439a;
+    margin-top: 35px;
+}
+#contato h1{
+    font-family: Arial, sans-serif;
+    color:#1e1f20;
+}
+#contatogeral img{
+    height: 50px;
+    width:50px;
+}
+#contato1{
+    float: left;
+    width: 100%;
+    margin-top: 4%;
+}
+.contatoE h1{
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 3%;
+}
+.contatoE p{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 4%;
+}
+.contatoE p,.contatoE h1{
+    margin-left: 10%;
+}
+.lugaresMundo{
+    float: left;
+    margin-left: 2%;
+    height: 15%;
+    width: 17%;
+    background-color: rgba(36,36,36,0.03)
+}
+.lugaresMundo img{
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 60%;
+    width:30%;
+}
+#tokyo{
+    margin-left: 22%;
+}
+.contatoE{
+    color: #363636;
+    text-decoration: none;
+    width: 250px;
+}
+.contatoE,.lugaresMundo img{
+    display: inline-block;
+    float: left;
+}
+#contato2{
+    float: left;
+    width:100%;
+    margin-top: 2%;
+}
+#blog{
+    margin-left: 22%;
+}
+#rodape{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: url(imagens/fundovermelho.png) no-repeat;
+    background-size: 100%;
+	color:red;
+}
+#rodape p,#botao_voltar p,#botao_voltar img{
+    float: left;
+}
+#rodape p{
+    margin-top: 1%;
+    margin-left: 1%
+}
+#botao_voltar{
+    margin-top: 0.5%;
+}
+#botao_voltar{
+    margin-left: 90%;
+}
+#rodape p{
+    color:#8fd5fd;
+}
+#botao_voltar p{
+    margin-top: 4%;
+    margin-right: 1%;
+    color: rgba(255,255,255,0.8);
+    font-weight: bold;
+}
+#botao_voltar img{
+    
+}
+

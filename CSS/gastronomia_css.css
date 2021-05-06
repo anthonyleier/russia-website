@@ -1,0 +1,55 @@
+/*Gastronomia*/
+h1{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	color:#6b4406;
+}
+h2{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 45px;
+	color:#6b4406;
+}
+.imagens{
+	text-align: center
+	width: 75%;
+	height: 75%;
+	-webkit-filter:grayscale(0%);
+}
+.imagens:hover{
+    -webkit-filter:grayscale(60%);
+    transition: 1s;
+}
+.titulo{
+	text-align: right;
+	color:#9b640a;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	margin:0;
+	padding: 0;
+	border:0;
+}
+.texto{
+	font-family: 'PT Serif', serif;
+	text-align: right;
+	color:#845013;
+}
+.link{
+	font-family: 'Arimo', sans-serif;
+	text-align: right;
+	font-size: 12px;
+	color:#841313;
+	font-weight: bold;
+}
+table{
+	width: 100%;
+}
+body{
+	background-color: #f2c776;
+}
+.corpo{
+	margin: 1%;
+}

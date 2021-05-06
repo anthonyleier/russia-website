@@ -183,7 +183,7 @@ margin-left: 95.5%
     visibility: visible;
 }
 #praca::after {
-    background: url(../imagens/praca2.jpg) no-repeat;
+    background: url(../img/praca2.jpg) no-repeat;
     background-size: 100%;
     background-color: rgba(0,0,0,0.4);
     background-position: 55% 55%;
@@ -200,7 +200,7 @@ margin-left: 95.5%
     visibility: visible;
 }
 #peterholf::after {
-    background: url(../imagens/peter2.jpg) no-repeat;
+    background: url(../img/peter2.jpg) no-repeat;
     background-size: 100%;
     background-color: rgba(0,0,0,0.4);
     background-position: 55% 45%;
@@ -217,7 +217,7 @@ margin-left: 95.5%
     visibility: visible;
 }
 #kremlin::after {
-    background: url(../imagens/kremlin2.jpg) no-repeat;
+    background: url(../img/kremlin2.jpg) no-repeat;
     background-size: 100%;
     background-color: rgba(0,0,0,0.4);
     background-position: 35% 55%;
@@ -234,7 +234,7 @@ margin-left: 95.5%
     visibility: visible;
 }
 #palacioInverno::after {
-    background: url(../imagens/palacio2.jpg) no-repeat;
+    background: url(../img/palacio2.jpg) no-repeat;
     background-size: 112%;
     background-color: rgba(0,0,0,0.4);
     background-position: 50% 55%;
@@ -249,7 +249,7 @@ margin-left: 95.5%
 }
 /*ESTILO PARA A PAGINA DA SELEÇÃO*/
 .campo{
-	background: url(../imagens/campo.jpg) no-repeat ;
+	background: url(../img/campo.jpg) no-repeat ;
 	background-size: cover; /*especifica o tamanho das imagens de fundo*/
 }
 #goleiro img{
@@ -408,7 +408,7 @@ margin-left: 95.5%
     float: left;
     width: 100%;
     height: 100px;
-    background: url(imagens/fundovermelho.png) no-repeat;
+    background: url(img/fundovermelho.png) no-repeat;
     background-size: 100%;
 	color:red;
 }
